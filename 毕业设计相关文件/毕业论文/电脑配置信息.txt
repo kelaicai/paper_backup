@@ -1,0 +1,24 @@
+﻿------鲁大师 Build V5.1019.1045.509------
+
+电脑型号: 閼辨梹鍏?80S1 缁楁棁顔囬張顒傛暩閼?
+操作系统: Windows 10 娑撴挷绗熼悧?64娴?
+
+  处理器: 閼昏京澹掔亸?Core i5-5200U @ 2.20GHz 閸欏本鐗?
+    主板: 閼辨梹鍏?Nano 5T6
+    内存: 8 GB ( 闁叉垵锛嬫い?DDR3L 1600MHz )
+  主硬盘: 娑撴粏濮?MQ01ABD100 ( 1 TB / 5400 鏉?閸?)
+    显卡: Nvidia GeForce 920M ( 2 GB / 閼辨梹鍏?)
+  显示器: 娴滎兛绗㈤弬?BOE061D ( 15.3 閼诲崬顕? )
+    声卡: Conexant SmartAudio HD @ 閼昏京澹掔亸?High Definition Audio Controller
+    网卡: 閻熺偞妲?RTL810x/8139 Family Fast Ethernet NIC / 閼辨梹鍏?
+
+List<Notice> result=new ArrayList<Notice>();
+try{
+	String sql="你的sql语句"
+	result=(list<Notice>)qr.query(sql,new BeanHandler<Notice>(Notice.class));
+}
+catch(Exception e)
+{
+	result.add(null);
+}
+	return result;
